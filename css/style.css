@@ -5,7 +5,8 @@
 }
 
 :root{
-    --mainColor: #36393f;
+    --mainColor: #b23457;
+    --secondColor: #531069
 }
 
 html{
@@ -33,4 +34,36 @@ html{
 .cover h1{
     color: #efefef;
     font-size: 6rem;
+}
+.content {
+    padding: 2rem 3rem;
+}
+.content .description h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.content .description p{
+    font-size: 2rem;
+    text-align: justify;
+    margin: 2rem;
+}
+
+
+.footer{
+    height: 25vh;
+    background-color: var(--mainColor);
+    color: #efefef;
+    padding: 2rem;
+}
+.footer h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.footer h3{
+    font-size: 2.7rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+.footer a{
+    color: #efefef;
 }
