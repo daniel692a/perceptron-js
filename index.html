@@ -28,14 +28,14 @@
     <main class="content">
         <section class="description">
             <h2>¿Qué es?</h2>
-            <p mark>Un perceptrón es una abstracción de una neurona real. Éste toma varias entradas <i>x1,x2,...,xn</i>  y produce una salida.<br>Para la salida, Rosenblatt propuso que las entradas tuviesen pesos asciados <i>w1,w2,...,wn</i> , siendo estos números reales que expresan la importancia respectiva de cada entrada para la salida.<br>La salida de la neurona,  <i>0  o  1</i> , está determinada con base en que la suma ponderada,</p>
+            <p mark>Un perceptrón es una abstracción de una neurona real. Éste toma varias entradas <i>x<sub>1</sub>,x<sub>2</sub>,...,x<sub>n</sub></i>  y produce una salida.<br>Para la salida, Rosenblatt propuso que las entradas tuviesen pesos asciados <i>w<sub>1</sub>,w<sub>2</sub>,...,w<sub>n</sub></i> , siendo estos números reales que expresan la importancia respectiva de cada entrada para la salida.<br>La salida de la neurona,  <i>0  o  1</i> , está determinada con base en que la suma ponderada,</p>
         </section>
-        <form>
-            <section>
+        <form class="form">
+            <section class="data">
                 <h2>Datos</h2>
                 <section class="inputs">
                     <label for="">
-                        <input type="number" placeholder="Dato 1">
+                        <input type="number" placeholder="Dato 1" name="dt">
                     </label>
                     <label for="">
                         <input type="number" placeholder="Dato 2">
@@ -45,32 +45,32 @@
                     </label>
                 </section>
             </section>
-            <section>
+            <section class="data">
                 <h2>Pesos</h2>
                 <section class="weights">
                     <label for="">
-                        <input type="number">
+                        <input type="number" placeholder="Peso 1">
                     </label>
                     <label for="">
-                        <input type="number">
+                        <input type="number" placeholder="Peso 2">
                     </label>
                     <label for="">
-                        <input type="number">
+                        <input type="number" placeholder="Peso 3">
                     </label>
                 </section>
             </section>
-            <section>
+            <section class="data">
                 <h2>Umbral</h2>
-                <section>
+                <section class="treshold">
                     <label for="">
-                        <input type="text">
+                        <input type="number" placeholder="Umbral">
                     </label>
                 </section>
             </section>
-            <section>
+            <section class="result">
                 <h2>Resultado</h2>
                 <section>
-                    <p></p>
+                    <p>😀</p>
                 </section>
             </section>
         </form>
